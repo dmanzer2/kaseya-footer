@@ -1,0 +1,265 @@
+/* --------------------------------------------------------------
+	Kaseya Navigation
+
+----------------------------------------------------------------*/
+
+.top-links .social-icon {
+	border-radius: 0;
+}
+
+.top-links li i:first-child {
+    margin-right: 0;
+}
+
+body:not(.device-touch) .top-links .social-icon i {
+	transition: none !important;
+}
+
+body:not(.device-touch) .top-links .i-rounded, body:not(.device-touch) .top-links .i-plain, body:not(.device-touch) .top-links .i-circled, body:not(.device-touch) .top-links .i-bordered, body:not(.device-touch) .top-links .social-icon {
+	transition: none !important;
+	margin: 0;
+}
+
+#top-bar {
+    background-color: #34495e;
+    color: #8ba4bc;
+    border-bottom: none;
+}
+
+a.feed-link {
+	color: #8ba4bc;
+	text-decoration: underline !important;
+}
+
+a.feed-link:hover {
+	color: #8ba4bc;
+	text-decoration: none !important;
+}
+
+.top-links li > a {
+  color: #8ba4bc;
+  border-left: 1px solid #8ba4bc;
+}
+
+.top-links ul li {
+    border-left: none;
+}
+
+.top-links .social-icon {
+    font-size: 14px;
+}
+
+.top-links .social-icon:hover {
+  background-color: #34495e !important;
+}
+
+.top-links .social-icon i:last-child {
+  color: #47b4e4 !important;
+}
+
+.top-links ul ul, .top-links ul div.top-link-section {
+  border-top: 1px solid #EEE;
+}
+
+#primary-menu.sub-title > ul > li > a, #primary-menu.sub-title > div > ul > li > a {
+    line-height: 14px;
+    padding: 32px 25px 32px;
+    text-transform: uppercase;
+    border-top: none;
+    color: #34495e;
+		font-size: 15px;
+    font-weight: bold;
+}
+
+#primary-menu.sub-title > ul > li:hover > a, #primary-menu.sub-title > ul > li.current > a, #primary-menu.sub-title > div > ul > li:hover > a, #primary-menu.sub-title > div > ul > li.current > a {
+    background-color: transparent;
+    color: #47b4e4;
+    text-shadow: none;
+    border-top-color: none;
+}
+
+#primary-menu.sub-title > ul > li:hover > a span, #primary-menu.sub-title > ul > li.current > a span, #primary-menu.sub-title.style-2 > div > ul > li:hover > a span, #primary-menu.sub-title.style-2 > div > ul > li.current > a span {
+    color: #888;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > div > ul > ul > li > a > span, #primary-menu > ul > li > div > ul > ul > li > a > span {
+	display: inline !important;
+	margin-top: 10px;
+	line-height: 12px;
+	font-size: 11px;
+	font-weight: 400;
+	color: #888;
+	text-transform: capitalize;
+}
+
+#primary-menu.sub-title > ul > li > a span, #primary-menu.sub-title > div > ul > li > a span {
+	margin-top: 5px;
+}
+
+#primary-menu ul ul li a:hover {
+	  border-left: 5px solid #47b4e4;
+    color: #47b4e4;
+}
+
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+	border-top: 1px solid #EEE;
+}
+
+.breaking-news {
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+#header.sticky-header:not(.static-sticky) .lets-talk-btn {
+	  margin: 10px 0 0 0;
+}
+
+.lets-talk-btn {
+    margin: 27px 23px 23px 23px;
+    width: 170px;
+    border-radius: 2px;
+    padding: 6px;
+    background-color: #f49c14;
+    border-color: #f49c14;
+    text-transform: uppercase;
+}
+
+.lets-talk-btn span {
+	display: inline !important;
+	padding-left: 10px;
+}
+
+/* --------------------------------------------------------------
+	Begin Navigation Media Queries
+
+----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1308px) {
+	#primary-menu.sub-title > ul > li > a, #primary-menu.sub-title > div > ul > li > a {
+	    padding: 32px 14px 32px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	.lets-talk-btn {
+		display: none;
+	}
+	#primary-menu.sub-title > ul > li > a, #primary-menu.sub-title > div > ul > li > a {
+	    padding: 32px 18px 32px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.lets-talk-btn {
+		margin: 10px 0 10px;
+    width: 100%;
+	}
+}
+
+/* --------------------------------------------------------------
+	Kaseya Footer
+
+----------------------------------------------------------------*/
+
+#footer.dark, .dark #footer {
+    background-color: #34495e;
+    color: #CCC;
+    border-top-color: rgba(0,0,0,0.2);
+}
+
+.top-footer-text {
+	font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer-headings {
+	  text-transform: uppercase;
+    font-weight: 400;
+    color: #ccc !important;
+    margin-bottom: 10px;
+}
+
+.dark .widget_nav_menu li a, .dark .widget_links li a, .dark .widget_meta li a, .dark .widget_archive li a, .dark .widget_recent_comments li a, .dark .widget_recent_entries li a, .dark .widget_categories li a, .dark .widget_pages li a, .dark .widget_rss li a {
+	font-weight: 100;
+}
+
+h5.mailer-heading {
+	font-size: 14px !important;
+	color: #ccc !important;
+	font-weight: bold;
+	margin: 45px 0 0 0;
+}
+
+.mailer-text {
+	font-size: 12px !important;
+	font-weight: lighter;
+	margin: 10px 0;
+}
+
+.subscribe-widget {
+	margin-top: 5px;
+}
+
+.btn-subscribe {
+	color: #ffffff;
+	background-color: #527292;
+	border-color: #527292;
+}
+
+.btn-subscribe:hover {
+	color: #ffffff;
+	background-color: #48647f;
+	border-color: #48647f;
+}
+
+#footer.dark .social-icon {
+	font-size: 18px;
+	padding: 0 25px;
+}
+
+#footer.dark .social-icon.si-borderless:hover {
+  background-color: transparent !important;
+}
+
+#footer.dark .social-icon.si-borderless {
+	color: #8ba4bc !important;
+}
+
+#footer.dark .social-icon.si-borderless i:last-child {
+	color: #ccc !important;
+}
+
+#widget-subscribe-form {
+	color: #ccc !important;
+}
+
+#copyrights, #copyrights a {
+	color: #496682 !important;
+}
+
+#footer .counter.counter-small + h5 {
+    font-size: 12px;
+}
+
+#widget-subscribe-form .form-control::-moz-placeholder {
+  color: #8d8d8d;
+  opacity: 1;
+}
+#widget-subscribe-form .form-control:-ms-input-placeholder {
+  color: #8d8d8d;
+}
+#widget-subscribe-form .form-control::-webkit-input-placeholder {
+  color: #8d8d8d;
+}
+
+/* --------------------------------------------------------------
+	Begin Footer Media Queries
+
+----------------------------------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+	#footer.dark .social-icon {
+		font-size: 18px;
+		padding: 0 20px;
+	}
+}
