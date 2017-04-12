@@ -273,6 +273,12 @@ a.button.button-large.button-rounded.orange-button {
 	background-color: #f49c14 !important;
 	border-color: #f49c14 !important;
 	font-size: 20px;
+	border-bottom: 3px solid rgba(0,0,0,0.15) !important;
+}
+
+a.button.button-large.button-rounded.orange-button:hover {
+	background-color: #fea720 !important;
+	border-color: #fea720 !important;
 }
 
 a.button.button-large.button-rounded.orange-button i {
