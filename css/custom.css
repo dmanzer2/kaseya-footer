@@ -304,6 +304,25 @@ a.button.button-large.button-rounded.orange-button i {
 	}
 }
 
+footer .social-icon i {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+
+.footer-soc-widget > div > div > a.s-icon i {
+	color: #8ba4bc !important;
+}
+
+.footer-soc-widget > div > div > a.s-icon i:first-child:hover {
+	color: #039be5 !important;
+}
+
+.footer-soc-widget.clearfix > div > div > a > i {
+	font-size: 18px !important;
+	padding: 0 20px !important;
+}
+
+
 /* --------------------------------------------------------------
 	Begin Footer Media Queries
 
